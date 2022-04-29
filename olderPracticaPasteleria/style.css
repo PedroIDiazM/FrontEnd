@@ -1,0 +1,40 @@
+/* Global */ .colorpalette{color: #c6c3b3 #ccaf9b #a06b39 #873c1e #312921;}
+*{padding: 0; margin: 0;}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h1, h2, h3, button a{font-family: 'Oleo Script', cursive; font-weight: 100;}
+a{color: #c6c3b3; text-decoration: none;}
+a:hover{color: #ccaf9b; text-decoration: none;}
+
+/* Header */
+.container{width: 100%; overflow: hidden;}
+.container img{float: left; width: 5em; margin: .2em;}
+h1{margin: .8em 0 0 3.2em; font-size: 2em;}
+
+
+.cont-lower{width: 100%;
+    display: grid; grid-template-columns: 33% 33% 33%;
+    background-color: #312921;
+}
+.cont-lower a{margin: .2em auto; color: #ccaf9b;}
+
+/* M Main*/
+
+    /* Pedidos */
+.m-pedido{height: 14em;
+    background-image: url(./pexels-klaus-nielsen-6287255.jpg); background-repeat: no-repeat; background-size: cover;
+}
+.m-pedido button{width: 5.5em; height: 1.8em; margin: 22% 0 0 30%;
+    background-color: #312921; border: none; border-radius: 1em;
+    font-size: 2em;
+}
+
+    /* Información */
+.m-info{padding: 2em 0; background-image: linear-gradient(#c6c3b3, #a06b39); text-align: center;}
+.m-info p, .m-info h2, div h3{color: #312921;}
+    /* Grid */
+.mInfo-preciosContainer{display: grid; grid-template-columns: 50% 50%;}
+.pC-lista{display: grid; grid-template-columns: 50% 50%;}
+.pC-lista_l{text-align: left;}
+/* F Footer */
+footer{background-color: #312921;}
+footer p{padding: 5% 5%; color: #ccaf9b; text-align: center;}

@@ -1,0 +1,70 @@
+/* General */ .paletteBlues{color: #95bddc #c2d1e5 #2b6684  #012e67  #032e42 #0a1417;}
+.paletteGreens{color: #226C3B #2D8F4E #38B261 #50C878 #73D393 #96DEAE;}
+.paletteReds{color: #961316 #BF181D #E32227 #E84B4F #ED7377 #F29C9E;}
+*{margin: 0; padding: 0;}
+body, input{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-variant: small-caps; text-align: center;
+    background-color: #95bddc;
+}
+.brd{border-radius: 1em;}
+.pokedex{width: 100%;}
+/* main */
+h1, h2{color: #032e42;}
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+.blue{color: #032e42; font-size: 1.5em;}
+
+/* M form */
+form{margin: 1em 20%; background-color: #2b66847f;}
+input, button{margin: 1em; height: 2em;
+    background-color: #012e677f; color: #c2d1e5; border: none; 
+    font-size: 1em;
+}
+input[type="text"]{margin-right: 2em;}
+input[type="text"]::placeholder{color: #c2d1e5;}
+button{width: 4em; transition: background-color, 500ms;}
+button:hover{background-color: #012e67;}
+
+/* M result container */
+#resContainer{margin: 1em 10%; max-width: 80%; background-color: #012e677f;}
+.pokeimg img{margin: 1em 0; min-width: 10em; min-height: 10em; max-width: 20em;
+    background-image: url(./ui-img/frame.png); background-size: contain; background-repeat: no-repeat;
+}
+span p{display: inline-block; margin: .2em 1em;}
+.stats{display: flex; flex-wrap: wrap; justify-content: space-around;}
+.stscont{width: 30em; max-width: 100%; text-align: left;}
+.stscont span{display: block; margin: .5em; height: 1.4em; background-color: #95bddc7f;}
+.stscont p, .bar{margin: 0 .48em; display: inline-block;}
+.stscont p{width: 22%; font-size: 1.2em;}
+.bar{height: 1em;}
+
+/* M moves container*/
+#moves{display: grid; justify-content: space-around;
+    justify-items: start; grid-template-columns: auto auto auto auto auto;
+}
+
+/* M bar styles by number */
+.bar10{width: 7%; background-color: #961316;}
+.bar20{width: 14%; background-color: #BF181D;}
+.bar30{width: 21%; background-color: #E32227;}
+.bar40{width: 28%; background-color: #E84B4F;}
+.bar50{width: 35%; background-color: #F29C9E;}
+.bar60{width: 42%; background-color: #96DEAE;}
+.bar70{width: 49%; background-color: #73D393;}
+.bar80{width: 56%; background-color: #50C878;}
+.bar90{width: 63%; background-color: #38B261;}
+.bar100{width: 70%; background-color: #2D8F4E;}
+
+@media screen and (max-width: 479px) {
+    /* header footer */
+    .pokedex{width: 100%; min-height: 5em;}
+    /* main */
+    h1{font-size: 2.5em;}
+    h2{font-size: 1.5em;}
+    .blue{color: #032e42; font-size: 1em;}
+    /* container */
+    .stscont span{height: 1em;}
+    .stscont p{margin: 0 0 0 .4em; width: 24%; font-size: .8em;}
+    .bar{margin: 0; height: .8em;}
+    /* movs */
+    #moves{grid-template-columns: auto;}
+}

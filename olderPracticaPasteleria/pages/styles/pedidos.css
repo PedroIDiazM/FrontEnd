@@ -1,0 +1,43 @@
+/* Global */ .colorpalette{color: #c6c3b3 #ccaf9b #a06b39 #873c1e #312921;}
+*{padding: 0; margin: 0;}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h1, h2, h3, p, label, input, button{font-family: 'Oleo Script', cursive; font-weight: 100; color: #312921;}
+.changeColor{color: #873c1e;}
+input[type="text"], input[type="datetime-local"], button{height: 1.5em;
+    color: #c6c3b3; text-align: center;
+    border: none; border-radius: 1em;
+
+}
+
+/* Header */
+header{width: 100%; overflow: hidden;}
+header img{float: left; width: 5em; margin: .2em;}
+h1{margin: .8em 0 0 .2em; font-size: 2em;}
+
+/* M Main*/
+main{padding: 1em 0;
+    background-image: url("pexels-isabella-mendes-940842.jpg"); background-repeat: no-repeat; background-size: cover;
+}
+form{margin: 0 .8em; padding-bottom: 2em; text-align: center;
+    background-color: #ccaf9bC8; border-radius: .5em;
+}
+input[type="text"]{width: 60%; background-color: #a06b39;}
+
+p{margin: 0 3em;}
+
+/* Grid */
+.grid-container{display: grid; grid-template-columns: 50% 50%; grid-template-rows: 20% 80%;}
+.sabores{margin: 0 auto; width: 80%;}
+.adornos{margin: 0 auto; width: 80%;}
+
+span{display: block; text-align: left;}
+span input{margin: 0 .2em;}
+
+input[type="datetime-local"]{display: block; margin: 0 auto;
+    font-size: 1em; background-color: #a06b39;
+}
+button{margin: .5em auto; padding: .2em .5em;
+    font-size: 2em; background-color: #873c1e;
+}
+
+

@@ -1,0 +1,30 @@
+/*  Global */ .colorpalette{color: #c6c3b3 #ccaf9b #a06b39 #873c1e #312921;}
+*{padding: 0; margin: 0;}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: #a06b39;}
+h1, h2{font-family: 'Oleo Script', cursive; font-weight: 100; color: #312921;}
+p{color: #a06b39; font-size: 14px;}
+input, button{width: 60%; font-size: 1.2em;
+    border: none; border-radius: 1em;
+    color: #c6c3b3;
+}
+a{color: #873c1e;}
+
+/* H Header */
+header img{display: block; max-width: 24%; margin: .5em auto;}
+
+/* M Main */
+
+form{margin: .8em; padding: 1em 0;
+    background-color: #c6c3b3; text-align: center;
+    border-radius: .5em;
+}
+
+input + h2{margin-top: 1em;}
+
+input{display: block; margin: 0 auto;
+    text-align: center;
+    background-color: #a06b39; color: #c6c3b3;
+}
+
+button{margin: 2em auto 0; background-color: #873c1e;}
+button a{color: #c6c3b3; text-decoration: none;}

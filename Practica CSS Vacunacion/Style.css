@@ -1,0 +1,105 @@
+/* Global */ .colorPalette{color: #3353D1 #3756D5 #1F3E72 #F1F5FF #6D7B93 #FFF9E0;}
+*{padding: 0; margin: 0;}
+body, input, select, option, button{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; color: #6D7B93; font-size: 1.2em;}
+a{text-decoration: none; color: #6D7B93;}
+
+/* Header */
+header h2, .h-linkCont{display: inline-block;}
+header h2{margin: 1em 2em; color: #3353D1; font-size: 2em;}
+header div{position: absolute; top: 2.5em; right: 4em;}
+header div a{padding: 1em; margin-left: 1em; border-radius: .2em; transition: all 500ms;}
+header div a:hover{background-color: #3353D1; color: #FFF;}
+
+.back-round{background: #F1F5FF; border-radius: 15%; padding: 5px;}
+/* Main */
+/* M fight virus with vaccines */
+img[alt="nurse"]{width: 50%; float: right;}
+
+/* 1st container */
+.fvwvC1{width: calc(50% - 12em); margin: 0 6em;}
+.fvwvC1 h1{padding-top: 1.5em; font-size: 3em; color: #1F3E72;}
+.fvwvC1 p{margin: 1em 0 1.5em;}
+.fvwvC1-p{display: inline-block; color: #1F3E72;}
+.fvwvC1-p + .fvwvC1-p{margin-left: 2.5%;}
+.fvwvC1 img{width: 1em; margin-right: .5em; background: #FFF9E0;}
+
+/* 2nd container */
+.fvwvC2 img{width: 1em;}
+.fvwvC2 p{margin: 3.5em 2em 0; font-size: 1.5em; color: #1F3E72;}
+/* Form */
+.fvwvC2 form{position: absolute; left: 10%; margin-top: 2em; padding: 1em 1em 0; width: 55%; background-color: #FFFE; box-shadow: 5px 10px 15px 0 #35d3;}
+form img{margin-right: .5em;}
+label{width: calc(33% - 2em);}
+label + label{margin-left: 4em;}
+
+select, option{margin: 1.6em 0; width: 25%; font-size: 1em; border: none; color: #1F3E72;}
+
+input[type="button"]{float: right; margin: 1em .5em; width: 6em; height: 3em; border: none; background-color: #F1F5FF; border-radius: .3em; transition: background-color, color, 500ms;}
+input[type="button"]:hover{background-color: #3353D1; color: #FFF;}
+
+/* M Vaccine logos */
+.vaccine-logos{display: grid; grid-template-columns: repeat(4, 25%); margin: 20% 4em 5%;}
+.vaccine-logos img{width: 100%;}
+
+/* M why should i vaccine? */
+.wsiv{margin: 1em 4.5em;}
+.wsiv h2{width: 50%; color: #1F3E72; font-size: 2.5em;}
+.wsiv-p{width: 50%; margin: 2em 0 4em;}
+
+/* container */
+.wsivC{display: grid; grid-template-columns: repeat(4, 25%);}
+.wsivC div{margin: .5em; padding: 1em 1.5em 4em; transition: box-shadow, 500ms;}
+.wsivC div:hover{box-shadow: 5px 10px 15px 5px #35d3;}
+.wsivC div img{width: 3em;}
+.wsivC div h3{margin: 1em 0; color: #1F3E72; font-size: 1.5em;}
+
+/* preparations before vaccine*/
+img[alt="woman"]{width: 100%;}
+.pbv{display: grid; grid-template-columns: 45% 55%;}
+.pbvC{padding: 0 4em;}
+.pbvC h2{color: #1F3E72; font-size: 2.4em;}
+.pbvC-p{font-size: 1.2em; margin: 1.2em 0 2em;}
+
+.pbvCA{margin: 0 2.5em 1em 1em;}
+.pbvCA div{margin: 1em 2em 0; height: 3em;}
+.pbvCA img{width: 1.5em;}
+.pbvCA h3{display: inline-block; margin: .5em; color: #1F3E72; font-size: 1.2em;}
+.pbvCA p{margin: .2em 0 0 3em; color: #fff; font-size: .8em; transition: all, 500ms;}
+/* this works better with JS */
+.pbvCA div:hover{height: auto;}
+.pbvCA p:hover{color: #6D7B93;}
+
+/* Emergency contact */
+img[alt="doctor"]{float: right; width: 45%; margin: 5em 0 0;}
+
+.ecL-C{width: 55%; height: 41em;}
+.ec{padding: 4em 2em;}
+
+/* .ecC{margin: 1em calc(45% + 4em) 6% 2em; padding: 4em 1em 3em 3em;} */
+.ec h2{color: #1F3E72; font-size: 2.4em;}
+.ec-p{margin: 2em 0 6em;}
+
+.ecG{display: grid; grid-template-rows: 50% 50%; grid-template-columns: 50% 50%;}
+.ecG div{margin: .5em; padding: .5em;}
+.ecG img{float: left; width: 2em; margin-right: .5em;}
+.ecG h3{color: #1F3E72; font-size: 1.5em;}
+.ecG p{font-size: .8em;}
+.ecG button{margin: .5em 0; width: 7em; height: 3em; background-color: #F1F5FF; color: #3353D1; border: none; border-radius: .3em; font-size: 1.4em; transition: background-color, color, 500ms;}
+.ecG button:hover{background-color: #3353D1; color: #FFF;}
+
+/* Footer */
+footer{background-color: #eeeeFF;}
+.fT, .fL, .fL div{display: inline-block;}
+
+.fT{width: 22%; height: 10em; margin: 2em 0 0 3em;}
+.fT h2{color: #3353D1; font-size: 2em;}
+
+.fL{width: 45%; height: 10em; margin-left: 25%;}
+.fL h3{color: #1F3E72; font-size: 1.4em; margin-bottom: .5em;}
+.fL a{display: block; margin-bottom: .5em;}
+
+.fL div{width: 30%;}
+
+.fCnL p, .fCnL a{display: inline-block;}
+.fCnL p{width: 30%; margin: 0 5%;}
+.fCnL-l{margin: 0 1em 2em 28%;}
